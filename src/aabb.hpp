@@ -31,7 +31,7 @@
 
 
 template <typename T>
-__align__(32)
+// __align__(32)
 struct AABB {
 public:
   __host__ __device__ AABB() {
